@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const morgan = require('morgan')
 const BP = require('body-parser')
 
+
 const app = express()
 
 
@@ -28,7 +29,7 @@ app.use(BP.json())
 app.use(BP.urlencoded({ extended: false }))
 
 
-app.use('./user', userRoute)
+app.use('/user', userRoute)
 
 
 const port = 1818
