@@ -10,7 +10,6 @@ opts.secretOrKey = 'key'
 
 module.exports = passport => {
     passport.use(
-        new Strategy(
             new Strategy(opts, (jwt_payload, done) => {
                 userModel
                     .findById(jwt_payload.id)
@@ -22,6 +21,6 @@ module.exports = passport => {
                     })
                     .catch(err => console.log(err))
             })
-        )
+
     )
 }

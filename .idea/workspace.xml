@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823ffeb8-ad4d-4f4f-9cda-fa97241a1fe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +78,13 @@
       <workItem from="1601031755535" duration="815000" />
       <workItem from="1601184497203" duration="43000" />
       <workItem from="1602220646170" duration="5986000" />
+      <workItem from="1602311382456" duration="495000" />
+      <workItem from="1602318290683" duration="3019000" />
+      <workItem from="1602675324191" duration="293000" />
+      <workItem from="1602676724614" duration="782000" />
+      <workItem from="1603001205102" duration="1783000" />
+      <workItem from="1603010230466" duration="5000" />
+      <workItem from="1603010246266" duration="3787000" />
     </task>
     <servers />
   </component>

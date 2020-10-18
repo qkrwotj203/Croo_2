@@ -12,7 +12,10 @@ const app = express()
 
 
 const userRoute = require('./routes/user')
+const postRoute = require('./routes/post')
+const profileRoute = require('./routes/profile')
 
+require('./config/db')
 
 app.use(morgan('dev'))
 app.use(BP.json())
@@ -24,7 +27,8 @@ require('./config/passport')(passport)
 
 
 app.use('/user', userRoute)
-
+app.use('/post', postRoute)
+app.use('/profile', profileRoute )
 
 const port = 1818
 
