@@ -5,18 +5,17 @@
 const mongoose = require('mongoose')
 
 
-const userPost = mongoose.Schema(
+const postSchema = mongoose.Schema(
     {
         user: {
-            type: String,
-            required: true
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'user'
         },
         content: {
             type: String
         },
         file: {
-            type: String,
-            required: true
+            type: String
         },
         reply: [],
         hashtag: [],
@@ -30,4 +29,4 @@ const userPost = mongoose.Schema(
     }
 )
 
-
+module.exports = mongoose.model('post', postSchema)
